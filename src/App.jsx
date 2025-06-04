@@ -1,13 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import QuizPage from './pages/QuizPage';
+import ResultsPage from './pages/ResultsPage';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Quiz App</h1>
-      <p>Welcome to the Quiz App!</p>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/quiz/:id" element={<QuizPage />} />
+        <Route path="/results/:id" element={<ResultsPage />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
