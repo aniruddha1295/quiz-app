@@ -1,12 +1,32 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Quiz App Screenshot]
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+An interactive quiz application built with React and Vite that allows users to test their knowledge across multiple categories. The app features a responsive design, tracks user scores, and displays current session information.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Multiple Quiz Categories**: HTML, CSS, and JavaScript quizzes with specialized questions
+- **Responsive Design**: Fully responsive UI that works across all device sizes
+- **User Authentication Display**: Shows current user login and timestamp
+- **Score Tracking**: Records and displays quiz history and scores
+- **Interactive UI**: Clean, dark-themed interface with intuitive navigation
+
+## Technologies Used
+
+- React 18
+- Vite
+- CSS3 (with responsive design principles)
+- Local Storage for quiz history persistence
+
+## Live Demo
+
+Check out the live version of the Quiz App: [Quiz App Demo](https://aniruddha1295.github.io/quiz-app/)
+
+## Installation and Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aniruddha1295/quiz-app.git
