@@ -1,6 +1,6 @@
 # Quiz App
 
-![Quiz App Screenshot]
+![Quiz App Screenshot](https://github.com/user-attachments/assets/aa655835-ca72-405c-acd8-ecc5de3c84ab)
 
 ## Overview
 
